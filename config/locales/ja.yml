@@ -1,0 +1,165 @@
+ja:
+  spree:
+    admin:
+      day_name: 日
+      hour_name: 時間
+      month_name: 月
+      year: 年
+    finance_analysis: 売上金額分析
+    product_analysis: 商品分析
+    promotion_analysis: プロモーション分析
+    trending_search_analysis: 検索分析
+    user_analysis: ユーザー分析
+    insights: 分析
+    insight:
+      heading: '分析: %{type}'
+      tab_heading: 分析
+      not_found: 分析結果はありません
+      product_views:
+        title:  商品閲覧
+        description: ユーザーによる商品詳細の閲覧回数。
+        product_name: 商品名
+        views: 合計閲覧数
+        users: ユーザー(Unique)
+        guest_sessions: ゲストセッション
+      cart_additions:
+        title: カートイン
+        additions: 追加
+        description: 商品がカートインされた回数。
+        product_name: 商品名
+        quantity_change: 数量変更(Qty)
+        sku: sku
+      cart_removals:
+        title: カートから取り除かれた商品
+        description: 商品がカートから削除された回数。
+        product_name: 商品名
+        quantity_change: 数量変更(Qty)
+        removals: 削除
+        sku: sku
+      cart_updations:
+        title: 数量変更
+        description: カート内で商品数量が変更された回数。
+        product_name: 商品名
+        quantity_decrease: 数量減少(カート内)
+        quantity_increase: 数量追加(カート内)
+        removals: 削除(カート内)
+        sku: sku
+        updations: 数量変更リクエスト数
+      product_views_to_cart_additions:
+        title: 閲覧に対するカートイン率
+        description: 商品詳細閲覧からカートインにつながった割合。（Cart-to-Detail率)
+        cart_additions: コンバージョン (product qty.)
+        product_name: 商品名
+        views: 閲覧回数
+        cart_to_view_ratio: 閲覧に対するカートイン率
+      trending_search:
+        title: トレンドキーワード
+        description: ユーザーがよく検索するキーワードリスト。
+        searched_term: 期間
+        occurrences: 検索回数
+      users_not_converted:
+        title: 未購入ユーザー
+        description: 会員登録後に１度も購入していないユーザー数。
+        signup_date: 登録日
+        user_email: Email
+      users_who_recently_purchased:
+        title: 最近購入したユーザー
+        description: 最近商品を購入したユーザー数。
+        last_purchase_date: 最新購入日
+        last_purchased_order_number: 最新注文
+        purchase_count: 購入回数
+        user_email: Email
+      users_who_have_not_recently_purchased:
+        title: 最近購入していないユーザー
+        description: 現在から特定の期間に1度も購入していないユーザー数。
+        last_purchase_date: 最終購入日
+        last_purchased_order_number: 最終注文
+        user_email: Email
+      user_pool:
+        title: ユーザー種別
+        description: 過去1ヶ月間にサイトにアクセスしたユーザーの種類。
+        months_name: 月
+        guest_users: ゲストユーザー
+        active_users: 会員
+        new_sign_ups: 新規ユーザー
+      payment_method_transactions:
+        title: トランザクション
+        description: 支払方法ごとのトランザクション数。
+        payment_method_name: 支払方法
+        payment_amount: 売上金額
+        months_name: 月
+      payment_method_transactions_conversion_rate:
+        payment_method_name: 支払方法
+        title: 支払方法ごとのコンバージョン率
+        description: 支払方法ごとのトランザクションの成功・失敗率。
+        month_name: 月
+        payment_state: 支払状況
+        count: 回
+      promotional_cost:
+        title: Promotional Cost
+        description: プロモーションごとの売上金額。
+        promotion_code: プロモーションコード
+        promotion_discount: 割引
+        promotion_name: プロモーション
+        promotion_start_date: プロモーション開始日
+        promotion_end_date: プロモーション終了日
+        usage_count: 使用回数
+        months_name: 月
+      annual_promotional_cost:
+        title: 年間プロモーションコスト
+        description: 各プロモーションごとの収益。
+        promotion_discount: 割引金額
+        promotion_name: プロモーション
+        usage_count: 使用回数
+      sales_performance:
+        title: 販売パフォーマンス
+        description: 利益、税金、配送の合計金額や返金についての分析。
+        adjustment_total: 調整金額
+        cost_price: 原価
+        months_name: 月
+        profit_loss: 利益/損失
+        profit_loss_percent: 利益/損失 %
+        refund_amount: 返金金額
+        revenue: 利益
+        sale_price: 販売金額
+        shipping_charges: 配送金額
+        tax: 税
+        promotion_discount: プロモーション割引金額
+      unique_purchases:
+        title: 各商品を購入したユーザー
+        description: 各商品がどれだけのユーザーに購入されているか。
+        product_name: 商品名
+        sku: sku
+        sold_count: 売上個数
+        users: ユーザー
+      best_selling_products:
+        title: 売れている/売れていない商品
+        description: 売れている商品・売れていない商品のリスト。
+        product_name: 商品名
+        sku: sku
+        sold_count: 売上個数
+      product_views_to_purchases:
+        title: 閲覧に対する購入率
+        description: 商品詳細閲覧後に購入された割合。
+        product_name: 商品名
+        purchases: 受注数
+        views: 閲覧数
+        purchase_to_view_ratio: 閲覧に対する購入率
+      returned_products:
+        title: 返品
+        description: 商品の返品数。
+        product_name: 商品名
+        return_count: 返品数
+        sku: sku
+      shipping_cost:
+        title: 配送料
+        name: 配送方法
+        months_name: 月
+        shipping_charge: 配送料
+        revenue: 利益
+        shipping_cost_percentage: 配送料 %
+      sales_tax:
+        title: 税
+        months_name: 月
+        zone_name: 地域
+        sales_tax: 税
